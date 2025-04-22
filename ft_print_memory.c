@@ -86,15 +86,6 @@ void *ft_print_memory(void *addr, unsigned int size) {
 	unsigned int start =0;
 	char hexa[16]= "0123456789abcdef";
 
-	//temporary addres ;
-	//unsigned long long int tmp_addr = (unsigned long long int )addr;
-
-	//switching the adress to long int;
-	//unsigned long long int  adress = (unsigned long long  int)addr;
-	
-	//unsigned long int div =16;
-	
-	//switching the adrees to char for printing;
 	char *string = (char *)addr;
 
 	
@@ -146,20 +137,22 @@ void *ft_print_memory(void *addr, unsigned int size) {
 	return addr;
 }
 
-//int main() {
+int main() {
 
 //	char string[] ="Bonjour les amis\nches\t\n\tc est fou\ntout\tce qu on\npeut faire avec\t\n\nprint_memory\n\n\n\tlol\nlol\n ";
-//	char string1[]= "helohellohello\n\nhello\n\nhello\n";
-	//char string[] = "soulaimanefinishedtehft_printmemorybutforgetthenorminete";
+	//char string1[]= "helohellohello\n\nhello\n\nhello\n";
+	char string2[] = "soulaimanefinish\tedtdjffhldhfjfhjehft_printhfhdhfhdfhuidhhduvhudamem\norybuhdggdgzedfzefdfzefdyfzydftforgettienorminete";
 //	unsigned int size = sizeof(string);
-//	unsigned int size1 = sizeof(string1);
+	//unsigned int size1 = sizeof(string1);
+	unsigned int size2 = sizeof(string2);
+ 
 
 //	ft_print_memory(string , size);
 //	printf("\n\n\n");
-//	ft_print_memory(string1 , size1);
+	ft_print_memory(string2 , size2);
 
 	
-//}
+}
 
  
 
